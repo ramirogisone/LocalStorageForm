@@ -61,7 +61,7 @@ function localStorageReady() {
         listaTweets.appendChild(li);  
     })   
 }
-function agregaTweetLS(){
+function agregaTweetLS(tweet){
     // console.log(tweet);
     let tweets;
     //llamo funcion para recuperar tw de LS
